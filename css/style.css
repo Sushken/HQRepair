@@ -2,13 +2,17 @@
 
 .menu {
   display: flex;
-  float: right;
+  float: left;
   max-width: 720px;
   /*margin-top: 20px;*/
   list-style: none;
   /*background: rgba(0, 0, 0, 0.47);*/
+  
 }
 
+.menu img{
+	padding-right: 20px;
+}
 .menu li {
 	margin-top: 20px;
 	display: inline;
@@ -149,8 +153,8 @@ background-position:-167px -36px;
 	background-size:cover;
 	background-position: center center;
 	background-attachment: fixed;
-	min-height:640px;
-	/*width: auto;*/
+	min-height: 980px;
+	width: 100%;
 }
 /*.between-blocks{
 	background:url(../images/splash.jpg) no-repeat;
@@ -165,7 +169,7 @@ background-position:-167px -36px;
 	text-align: center;
     background: rgba(0, 0, 0, 0.47);
     padding: 3em 2em;
-    margin-top: 11em;
+    margin-top: 400px;
     position: absolute;
 }
 .banner-info h2{
