@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 
 .menu {
-  display: flex;
-  float: left;
-  max-width: 720px;
-  /*margin-top: 20px;*/
-  list-style: none;
-  /*background: rgba(0, 0, 0, 0.47);*/
-  
+	display: flex;
+	float: left;
+	max-width: 720px;
+	/*margin-top: 20px;*/
+	list-style: none;
+	/*background: rgba(0, 0, 0, 0.47);*/
 }
 
 .menu img{
@@ -156,14 +155,6 @@ background-position:-167px -36px;
 	min-height: 980px;
 	width: 100%;
 }
-/*.between-blocks{
-	background:url(../images/splash.jpg) no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center center;
-	min-height: 300px;
-}*/
-
 
 .banner-info{
 	text-align: center;
@@ -193,17 +184,13 @@ background-position:-167px -36px;
  .img-style {
  	max-width: : 520px;
  	width: auto;
- }
+}
 
 
 .welcome{
-	padding:3em 0 4em;
+	padding: 3em 0 4em;
 }
-./*welcm-left h3{
-	font-size: 3em;
-    color:#B8D29B;
-    font-family: 'Exo2-Medium';
-}*/
+
 .welcm-left h4{
 	font-size: 1.3em;
     color: #333;
@@ -223,11 +210,7 @@ background-position:-167px -36px;
     font-size: 2em;
    font-family: 'Exo2-Medium';
 }
-/*.welcm-right img {
-	max-width: 522px;
-	width: auto;
-    margin: 2em 0 1em 0;
-}*/
+
 .welcm-right p{
 	color:#999;
 	font-size:0.9em;
@@ -238,10 +221,11 @@ p.text{
 	margin-top:1em;
 }
 
-
-/*.block-head{
-	background: rgba(0,0,0,0.47);
-}*/
+*/
+.block-head {
+	margin-top: 0;
+	padding-top: 0;
+}
 
 .block-head h1{
 	text-align: center;
@@ -259,7 +243,6 @@ p.text{
 }
 
 .fixit_sowd_list {
-	/*width: calc(100% - 150px);*/
 	float: left;
 }
 .fixit_sowd_list > h3 {
@@ -289,8 +272,6 @@ p.text{
 }
 
 .fixit_sowd_list > ul > .orders .order-icon {
-	/*width: 50px;
-	height: 50px;*/
 	text-align: center;
 	margin-right: 20px;
 	float: left;
@@ -308,7 +289,7 @@ p.text{
     color: #fff;
     font-size: 1.6em;
     margin-top: 2px;
-   font-family: 'Exo2-Medium';
+    font-family: 'Exo2-Medium';
 }
 .captn p {
     font-size:0.9em;
@@ -338,9 +319,9 @@ p.text{
     transition: all 0.3s ease;
 }
 .teammate a:hover .captn {
-  width: 100%;
-  bottom: 0%;
-  padding: 42% 10%;
+	width: 100%;
+	bottom: 0%;
+	padding: 42% 10%;
 }
 
 
